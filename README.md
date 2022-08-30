@@ -1,0 +1,1 @@
+# projeto-studio-ghibli
