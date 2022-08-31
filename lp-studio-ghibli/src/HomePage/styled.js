@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, { keyframes} from "styled-components"
 
 // Estilização do Container
 export const Container = styled.div`
@@ -53,11 +53,26 @@ export const PContainerInfos = styled.p`
     line-height: 180%;
 `
 // Estilização Container Imagens
+const animationGhost = keyframes`
+    0%{
+        transform: translateY(-4%);
+        transition: ease-in-out 0.5;
+    }
+    
+    50% {
+        transform: translateY(4%);
+        transition: ease-in-out  0.5;
+    }
+`
+
 export const ContainerImg = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(-4%);
+    animation: ${animationGhost}  3.5s infinite;
 `
+
 // Estilização Button 
 export const ButtonDiv = styled.div`
     display: flex;
