@@ -5,8 +5,7 @@ import instagram from "../Assets/instagram.png"
 import facebook from "../Assets/facebook.png"
 import twitter from "../Assets/twitter.png"
 import youtube from "../Assets/youtube.png"
-import ghostOne from "../Assets/ghostOne.png"
-import ghostTwo from "../Assets/ghostTwo.png"
+import ghost from "../Assets/ghostOne.png"
 import play from "../Assets/play.png"
 
 const HomePage = () => {
@@ -34,8 +33,7 @@ const HomePage = () => {
                     </S.ButtonDiv>
                 </S.ContainerInfos>
                 <S.ContainerImg>
-                    <img src={ghostOne} alt="imagem fantasma"/>
-                    <img src={ghostTwo} alt="imagem fantasma"/>
+                    <S.ImgContainer src={ghost} alt="imagem fantasmas"/>
                 </S.ContainerImg>
             </S.ContainerPrincipal>
         </S.Container>

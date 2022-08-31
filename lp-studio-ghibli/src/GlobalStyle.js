@@ -9,7 +9,14 @@ const GlobalStyle = createGlobalStyle`
    box-sizing: border-box;
    color: #F9F9F9;
    font-size: 16px;
-}`
+}
+
+body {
+   background: linear-gradient(to right, #628E75 , #1A4855);
+}
+`
+
+
 
 
  
