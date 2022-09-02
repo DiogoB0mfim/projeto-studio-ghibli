@@ -47,7 +47,6 @@ export const ContainerPrincipal = styled.div`
 export const ContainerInfos = styled.div`
     display: flex;
     width: 30%;
-    gap: 20px;
     flex-direction: column;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
