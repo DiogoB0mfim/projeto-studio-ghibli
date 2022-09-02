@@ -38,6 +38,7 @@ export const ContainerPrincipal = styled.div`
     height: 65%;
     width: 90%;
 
+
     @media(max-width: 992px) {
         flex-direction: column-reverse; 
         height: 100%;
@@ -48,7 +49,6 @@ export const ContainerInfos = styled.div`
     display: flex;
     width: 30%;
     flex-direction: column;
-    justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     color: #F9F9F9;
 
@@ -60,6 +60,8 @@ export const ContainerInfos = styled.div`
 `
 export const H3ContainerInfos = styled.h3`
     font-size: 1.5rem;
+
+    margin-bottom: -20px;
 
     @media(max-width: 1500px) {
         font-size: 1.2rem;
@@ -74,6 +76,7 @@ export const H1ContainerInfos = styled.h1`
     width: 80%;
     font-weight: 800;
     line-height: 109%;
+
     
     @media(max-width: 1740px) {
         font-size: 3.6rem;
@@ -92,7 +95,9 @@ export const H1ContainerInfos = styled.h1`
 `
 export const PContainerInfos = styled.p`
     font-size: 1.25rem;
-    line-height: 180%;
+    line-height: 150%;
+
+    margin-top: -20px;
 
     @media(max-width: 1740px) {
         font-size: 1.20rem;
@@ -176,6 +181,7 @@ export const ButtonWatchN = styled.button`
 
     @media(max-width: 1380px) {
         font-size: 0.9rem;
+        width: 100%;
     }
 
     @media(max-width: 1286px) {
@@ -215,6 +221,7 @@ export const ButtonWatchTr = styled.button`
 
     @media(max-width: 1380px) {
         font-size: 0.9rem;
+        width: 100%;
     }
 
     @media(max-width: 1286px) {
