@@ -50,6 +50,9 @@ export const ContainerInfos = styled.div`
     gap: 20px;
     flex-direction: column;
     justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    color: #F9F9F9;
+
 
     @media(max-width: 992px) {
         width: 100%;
@@ -149,6 +152,8 @@ export const ButtonWatchN = styled.button`
     padding: 10px;
     cursor: pointer;
     transform: skew(-18deg);
+    font-family: 'Poppins', sans-serif;
+    color: #F9F9F9;
     
     display: flex;
     justify-content: center;
@@ -185,11 +190,13 @@ export const ButtonWatchN = styled.button`
 export const ButtonWatchTr = styled.button`
     background: transparent;
     border: 2px solid #658E76;
-    padding: 10px;
+    padding: 9px;
     font-weight: 400;
     width: 15rem;
     cursor: pointer;
     transform: skew(-18deg);
+    font-family: 'Poppins', sans-serif;
+    color: #F9F9F9;
 
     &:before {
         content: "";
