@@ -1,4 +1,4 @@
-import styled, { keyframes} from "styled-components"
+import styled, { keyframes } from "styled-components"
 
 // Estilização do Container
 export const Container = styled.div`
@@ -136,6 +136,10 @@ export const ButtonDiv = styled.div`
     gap: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    @media(max-width: 600px) {
+        width: 100%;
+    }
 `
 export const ButtonWatchN = styled.button`
     font-weight: 400;
@@ -173,6 +177,10 @@ export const ButtonWatchN = styled.button`
     @media(max-width: 1286px) {
         font-size: 0.8rem;
     }
+
+    @media(max-width: 600px) {
+        width: 100%;
+    }
 `
 export const ButtonWatchTr = styled.button`
     background: transparent;
@@ -205,5 +213,9 @@ export const ButtonWatchTr = styled.button`
 
     @media(max-width: 1286px) {
         font-size: 0.8rem;
+    }
+
+    @media(max-width: 600px) {
+        width: 100%;
     }
 `

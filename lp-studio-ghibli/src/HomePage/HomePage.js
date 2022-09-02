@@ -14,10 +14,10 @@ const HomePage = () => {
             <S.Header>
                 <img src={logo} alt="logo studio ghibli"/>
                 <S.HeaderSocialMedia>
-                    <img src={facebook} alt="logo facebook"/>
-                    <img src={instagram} alt="logo instagram"/>
-                    <img src={twitter} alt="logo twitter"/>
-                    <img src={youtube} alt="logo youtube"/>
+                    <a href="https://pt-br.facebook.com/StudioGhibliBrasil" target="blank"><img src={facebook} alt="logo facebook"/></a>
+                    <a href="https://www.instagram.com/ghibli/" target="blank"><img src={instagram} alt="logo instagram"/></a>
+                    <a href="https://twitter.com/JP_GHIBLI" target="blank"><img src={twitter} alt="logo twitter"/></a>
+                    <a href="https://www.youtube.com/c/StudioghibliBrasil" target="blank"><img src={youtube} alt="logo youtube"/></a>
                 </S.HeaderSocialMedia>
             </S.Header>
 
@@ -28,8 +28,8 @@ const HomePage = () => {
                     <S.PContainerInfos>Chihiro chega a um mundo mágico dominado por uma bruxa. 
                         Aqueles que a desobedecem são transformados em animais.</S.PContainerInfos>
                     <S.ButtonDiv>
-                        <S.ButtonWatchN><img src={play} alt="icone de play"/>ASSISTIR AGORA</S.ButtonWatchN>
-                        <S.ButtonWatchTr>ASSISTA O TRAILER</S.ButtonWatchTr>
+                        <a href="https://www.netflix.com/br/title/60023642" target="blank"><S.ButtonWatchN><img src={play} alt="icone de play"/>ASSISTIR AGORA</S.ButtonWatchN></a>
+                        <a href="https://www.youtube.com/watch?v=SgZI655GgHk" target="blank"><S.ButtonWatchTr>ASSISTA O TRAILER</S.ButtonWatchTr></a>
                     </S.ButtonDiv>
                 </S.ContainerInfos>
                 <S.ContainerImg>

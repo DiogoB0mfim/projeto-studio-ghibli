@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
 body {
    background: linear-gradient(to right, #628E75 , #1A4855);
 }
+
+a {
+   text-decoration: none;
+}
 `
 
 
