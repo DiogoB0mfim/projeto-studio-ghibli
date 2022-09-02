@@ -12,10 +12,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
-   font-family: 'Poppins', sans-serif;
    background: linear-gradient(to right, #628E75 , #1A4855);
-   color: #F9F9F9;
 }
 
 a {
